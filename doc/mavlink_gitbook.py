@@ -180,7 +180,7 @@ These messages define the ArduPilot specific message set, which is custom to [ht
 
 This topic is a human-readable form of the XML definition file: [ardupilotmega.xml](https://github.com/mavlink/mavlink/blob/master/message_definitions/v1.0/ardupilotmega.xml).
 
-> **Warning** The ArduPilot MAVLink fork of [ardupilotmega.xml](https://github.com/ArduPilot/mavlink/blob/master/message_definitions/v1.0/ardupilotmega.xml) may contain messages that have not yet been merged into this documentation.
+> **Warning** The ArduPilot MAVLink fork of [ardupilotmega.xml](git@github.com:SUIND/mavlink.git/blob/master/message_definitions/v1.0/ardupilotmega.xml) may contain messages that have not yet been merged into this documentation.
 """
     elif filename == 'development':
         insert_text+="""

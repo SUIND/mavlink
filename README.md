@@ -1,4 +1,4 @@
-[![Build Status](https://github.com/ArduPilot/mavlink/workflows/Test%20and%20deploy/badge.svg)](https://github.com/ArduPilot/mavlink/actions?query=branch%3Amaster)
+[![Build Status](git@github.com:SUIND/mavlink.git/workflows/Test%20and%20deploy/badge.svg)](git@github.com:SUIND/mavlink.git/actions?query=branch%3Amaster)
 
 ## MAVLink ##
 
