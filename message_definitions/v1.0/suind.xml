@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<mavlink>
+  <!-- Suind contact info:                                                  -->
+  <!-- company URL: http://www.suind.com                                    -->
+  <!-- email contact: kunal@suind.com                                       -->
+  <!-- mavlink ID range: 70000 - 70099                                      -->
+  <include>common.xml</include>
+  <messages>    
+    <message id="70000" name="SUIND_MISSION_DATA">
+      <description>Mission Data from Suind's Drones</description>
+      <field type="uint8_t" name="target_system">System ID.</field>
+      <field type="uint8_t" name="target_component">Component ID.</field>
+      <field type="uint32_t" name="mission_id">Mission ID.</field>
+      <field type="char[25]" name="signature">Signature.</field>
+      <field type="char[25]" name="serial_number">Serial No.</field>
+      <field type="float" name="mission_duration" units="seconds">Mission Duration.</field>
+      <field type="float" name="spray_volume" units="litres">Spray Volume.</field>
+      <field type="float" name="spray_area" units="acres">Spray Area.</field>
+      <field type="uint64_t" name="mission_time">Mission Timestamp.</field>
+      <field type="double" name="latitude">Mission Latitude.</field>
+      <field type="double" name="longitude">Mission Longitude.</field>
+      <field type="char[25]" name="signature_algorithm">Signature Algorithm.</field>
+    </message>
+  </messages>
+</mavlink>

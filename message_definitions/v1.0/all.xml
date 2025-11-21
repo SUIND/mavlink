@@ -48,5 +48,10 @@
     messages: 52100 - ? < 60000
     commands: 52100 - ? < 60000
   -->
+  <!-- suind.xml range of IDs:
+    messages: 70000 - 70099 
+    commands: 70000 - 70099
+  -->
+  <include>suind.xml</include>
   <messages/>
 </mavlink>
